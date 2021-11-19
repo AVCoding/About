@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<!-- Page styles -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- JQuery -->
+		<!-- <script src="js/jquery-3.5.1.min.js"></script> -->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+
+		<!-- Page scripts -->
+		<script src="js/script.js"></script>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	  
+		<title>About</title>
+	</head>
+	<body>
+	  
+	<div class="main-wrapper">
+		<header>
+			<div class="header-container">
+				<a href="javascript:void(0)" class="logo">
+					<img src="img/logo.svg" alt="FBS.tools">
+
+					<span class="fbs">
+						<strong>FBS</strong><span>.tools</span>
+					</span>
+				</a>
+
+				<!-- Mobile menu -->
+				<a href="javascript:void(0)" class="mob-nav" onclick="openNav()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+
+				<div class="seller-wrapper">
+					<a href="javascript:void(0)" class="seller show">все для селлера</a>
+					<a href="javascript:void(0)" class="seller">делали для себя, делимся</a>
+					<a href="javascript:void(0)" class="seller">вы - наш драйвер</a>
+					<a href="javascript:void(0)" class="seller">вы - будущее</a>
+					<a href="javascript:void(0)" class="seller">стало интересно?</a>
+					<a href="javascript:void(0)" class="seller sl-last">тестируйте бесплатно</a>
+				</div>
+			</div>
+				
+		</header>
+
+
+		<div class="main-container">
+
+			<div class="main">
+				<div class="left-sb-wrapper" >
+					<div class="left-sidebar">
+						<div class="tools-wrapper">
+							<span class="close-nav" onclick="closeNav()">
+								<?xml version="1.0" encoding="utf-8"?><svg version="1.1"  style="width: 15px; height: auto;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.878px"  viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path style="fill: white;"  d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg>
+							</span>
+							<div class="tools-container">
+								<h2>Инструменты</h2>
+								<div class="tools">
+									<ul>
+									  <li class="list">
+									    <div class="check"><span></span></div>
+									    <span>лист сборки заказов</span>
+									  </li>
+									  <li class="video">
+									    <div class="check"><span></span></div>
+									    <span>видео фиксация сборки</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>хранилище контента</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>хранилище заказов</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>аналитика продаж</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>бухгалтерия рассчётов</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>мониторинг возвратов</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>чатэфир селлеров</span>
+									  </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="soon-wrapper">
+							<div class="soon-container">
+								<h2>Скоро...</h2>
+								<div class="soon">
+									<ul>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>один ЛК на все площадки</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>формирование закупки</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>интеграция в 1C</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>интеграция в CMS</span>
+									  </li>
+									  <li>
+									    <div class="check"><span></span></div>
+									    <span>своя учетная система</span>
+									  </li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+
+				<div class="content-wrapper">
+					<div class="countdown-wrapper">
+						<div class="countdown-info-block"><p class="countdown" id="countdown"></p></div>
+						<div class="countdown-block">
+							<div class="date-block">
+								<p id="days" class="box">0</p><p class="date-text">Дней</p>
+							</div>
+							<span class="dots">:</span>
+							<div class="date-block">
+								<p id="hours" class="box">0</p>
+								<p class="date-text">Часов</p>
+							</div>
+							<span class="dots">:</span>
+							<div class="date-block">
+								<p id="minutes" class="box">0</p>
+								<p class="date-text">Минут</p>
+							</div>
+							<span class="dots">:</span>
+							<div class="date-block">
+								<p id="seconds" class="box">0</p>
+								<p class="date-text">Секунд</p>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div data-content="list" class="content show-content">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+						</div>
+						<div data-content="video" class="content">
+							cillum dolore eu fug
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<footer>
+			<div class="left">
+			   <img src="https://static.tildacdn.com/tild3739-3765-4265-a437-313364636233/Group_398.svg" alt="Markets">
+			</div>
+			<div class="right">
+			   <img src="https://static.tildacdn.com/tild3739-3765-4265-a437-313364636233/Group_398.svg" alt="Markets">
+			</div>
+		</footer>
+
+
+		<!-- Chat -->
+
+		  <div id="chat-circle" class="btn btn-raised">
+		        <div id="chat-overlay"></div>
+				    <!-- <i class="material-icons">speaker_phone</i> -->
+			    <img src="img/chat.svg.svg" class="chat-icon" alt="Chat" />
+		  </div>
+		  
+		  <div class="chat-box">
+		    <div class="chat-box-header" >
+		      <div class="social">
+			      <a href="javascript:void(0)"><img src="img/vk.png"  width="30" alt="Vk" /></a>
+			      <a href="javascript:void(0)"><img src="img/instagram.png"  width="30" alt="Instagram" /></a>
+			      <a href="javascript:void(0)"><img src="img/telegram.png"  width="30" alt="Telegram"/></a>
+			      <a href="javascript:void(0)"><img src="img/whatsapp.png"  width="30" alt="Whatsapp"/></a>
+			      <a href="javascript:void(0)"><img src="img/facebook.png"  width="30" alt="Facebook"/></a>
+		      </div>
+		      
+		      <span class="chat-box-toggle">
+		      	<?xml version="1.0" encoding="utf-8"?><svg version="1.1"  style="width: 15px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="122.878px"  viewBox="0 0 122.878 122.88" enable-background="new 0 0 122.878 122.88" xml:space="preserve"><g><path style="fill: white;"  d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z"/></g></svg>
+		      </span>
+		    </div>
+		    <div class="chat-box-body">
+		      <div class="chat-box-overlay">   
+		      </div>
+		      <div class="chat-logs">
+		       
+		      </div><!--chat-log -->
+		    </div>
+		    <div class="chat-input">      
+		      <form>
+		        <input type="text" id="chat-input" placeholder="Отправить сообщение..."/>
+		     	<button type="submit" class="chat-submit" id="chat-submit">отправить</button>
+		      </form>      
+		    </div>
+		  </div>
+			  
+		 </div>
+
+	</body>
+</html>
